@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=eWindow
+Comment=eWindow Browser
+Type=Application
+Exec=chromium-browser --disable-infobars --incognito --no-first-run --kiosk https://ew01.munichmakes.de/?name={{ grains['ewindow_nickname'] }}&cluster={{ grains['ewindow_cluster'] }}&key={{ grains['ewindow_key'] }}
+Terminal=false

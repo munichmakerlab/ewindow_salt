@@ -1,0 +1,5 @@
+base:
+  '*':
+    - browser
+    - misc
+    - splash

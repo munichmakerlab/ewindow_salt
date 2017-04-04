@@ -1,0 +1,3 @@
+#!/bin/sh
+rm -f /home/pi/.config/chromium/Singleton*
+exit 0
